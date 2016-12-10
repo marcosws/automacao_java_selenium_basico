@@ -1,0 +1,34 @@
+package test.selenium;
+
+import static org.junit.Assert.*;
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.WebElement;
+
+public class RodarPaginaDisplay {
+	
+	private WebDriver driver;
+
+	@Before
+	public void setUp(){
+		driver = new FirefoxDriver();
+		//driver.get("http://www.taketest.com.br");
+		driver.get("file:///C:/Estudo/Java/Selenium/AutomacaoSelenium/Automacao/formulario/index.html");
+		driver.manage().window().maximize();
+	}
+	
+	@Test
+	public void executaDisplay() {
+		fail("Not yet implemented");
+	}
+	
+	@After
+	public void fechaPagina(){
+		driver.quit();
+	}
+
+}

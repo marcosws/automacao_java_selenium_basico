@@ -1,0 +1,112 @@
+/* **** style.css **** 
+ * 09/12/2016      
+ * Marcos W. Souza   */
+
+@charset "UTF-8";
+
+body
+{
+	background-color: #5D478B;
+	font: 100% Arial;
+	color: #5D478B;
+}
+
+/* div */
+#container
+{
+	background: #AB82FF;
+	margin: 0 auto;
+	width: 800px;
+}
+#header
+{
+	margin-left: 20px;
+}
+#header h1
+{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#body
+{
+	background-color: #FFFFFF;
+	font-weight: bold;
+	color: #AB82FF;
+	text-shadow: 1px 1px #CFCFCF;
+}
+#footer
+{
+	text-align: center;
+	margin-left: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+/* form, input, label - CLASS */
+.form
+{
+	margin-left: 20px;
+}
+.table
+{
+	
+}
+.cxTexto
+{
+	
+}
+.lbTexto
+{
+	display: block;
+}
+.lbStatus
+{
+	color: red;
+}
+.btform
+{
+	border: 1px solid #5D478B;
+	color: #5D478B;
+	width: 80px;
+	height: 24px;
+	font-weight: bold;
+}
+.radiogroup
+{
+	border: 1px solid #5D478B;
+}
+/* form, input, label - ID*/
+#form1
+{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#tbForm1
+{
+	
+}
+#nome
+{
+	width: 350px;
+}
+#cpf
+{
+	
+}
+#telefone
+{
+	
+}
+#celular
+{
+	
+}
+#email
+{
+	
+}
+#enviar
+{
+	
+}
